@@ -78,7 +78,7 @@ export const Sidebar = () => {
     <div className="w-full p-5 h-screen">
       <h1 className="text-2xl font-bold mb-10 mt-4">React Store</h1>
 
-      <section>
+      <aside>
         <input
           type="text"
           placeholder="Search Product"
@@ -140,7 +140,7 @@ export const Sidebar = () => {
         >
           Reset filters
         </button>
-      </section>
+      </aside>
     </div>
   );
 };
